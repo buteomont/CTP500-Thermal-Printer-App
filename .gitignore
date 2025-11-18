@@ -1,0 +1,7 @@
+**pycache**/
+original/
+*.pyc 
+*.pyo 
+*.pyd
+*.ttf
+
