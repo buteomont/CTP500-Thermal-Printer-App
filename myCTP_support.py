@@ -131,10 +131,10 @@ def selectTextFile(gui_instance):
         initialdir = "/"
     )
 
-    showinfo(
-        title="Selected file: ",
-        message = textFilePath
-    )
+#    showinfo(
+#        title="Selected file: ",
+#        message = textFilePath
+#    )
 
     if textFilePath:
         try:
@@ -250,7 +250,7 @@ def print_from_image(gui_instance):
         sleep(0.5)
         sendEndPrintSequence(printer.ser)
 
-        messagebox.showinfo("Success", "Image printed successfully.")
+#        messagebox.showinfo("Success", "Image printed successfully.")
     except Exception as e:
         messagebox.showerror("Printing error", str(e))
 
@@ -263,10 +263,10 @@ def selectImageFile(gui_instance):
         filetypes = (('PNG files', '*.png'), ('JPG files', '*.jpg'), ('jpeg files', '*.jpeg'), ('BMP files', '*.bmp'), ('SVG files', '*.svg'), ('all files', '*.*'))
         )
 
-    showinfo(
-        title="Selected file: ",
-        message = imageFilepath
-    )
+#    showinfo(
+#        title="Selected file: ",
+#        message = imageFilepath
+#    )
 
     if imageFilepath:
         try:

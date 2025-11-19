@@ -121,6 +121,7 @@ class Toplevel1:
         self.Radiobutton1_1.configure(text='''Left''')
         self.Radiobutton1_1.configure(value='0')
         self.Radiobutton1_1.configure(variable=self.radioJustification_status)
+        self.Radiobutton1_1.config(state=tk.DISABLED) # Not yet implemented
 
         self.Radiobutton2_1 = tk.Radiobutton(self.TLabelframe1_1)
         self.Radiobutton2_1.place(x=9, y=52, height=21, width=94
@@ -132,6 +133,7 @@ class Toplevel1:
         self.Radiobutton2_1.configure(text='''Center''')
         self.Radiobutton2_1.configure(value='1')
         self.Radiobutton2_1.configure(variable=self.radioJustification_status)
+        self.Radiobutton2_1.config(state=tk.DISABLED) # Not yet implemented
 
         self.Radiobutton3_1 = tk.Radiobutton(self.TLabelframe1_1)
         self.Radiobutton3_1.place(x=9, y=78, height=21, width=79
@@ -143,6 +145,7 @@ class Toplevel1:
         self.Radiobutton3_1.configure(text='''Right''')
         self.Radiobutton3_1.configure(value='2')
         self.Radiobutton3_1.configure(variable=self.radioJustification_status)
+        self.Radiobutton3_1.config(state=tk.DISABLED) # Not yet implemented
 
         self.TCombobox1_1 = ttk.Combobox(self.Labelframe1)
         self.TCombobox1_1.place(x=540, y=160, height=38, width=69
